@@ -44,10 +44,3 @@ func BenchmarkDeletion(b *testing.B) {
 		tree.DeletePoint(&p)
 	}
 }
-
-/*
-
-BenchmarkInsertion-8   	 1665685	       843.2 ns/op	     255 B/op	       3 allocs/op
-BenchmarkDeletion-8    	 3323647	       384.7 ns/op	     129 B/op	       0 allocs/op
-
-*/
